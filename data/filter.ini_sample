@@ -1,0 +1,55 @@
+# -*- mode: conf -*-
+[all-upgrade]
+documentation = All dfg:upgrade related bz
+url = https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&bug_status=POST&bug_status=MODIFIED&bug_status=ON_DEV&bug_status=ON_QA&bug_status=VERIFIED&classification=Red%20Hat&f1=cf_internal_whiteboard&f2=cf_devel_whiteboard&j_top=OR&list_id=7573343&o1=substring&o2=substring&product=Red%20Hat%20OpenStack&query_format=advanced&short_desc=%20&short_desc_type=allwordssubstr&v1=DFG%3AUpgrades&v2=DFG%3AUpgrades
+dfg = DFG:Upgrades
+
+[all-zstream]
+documentation = All z-stream (get a target release)
+url = https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&bug_status=POST&bug_status=MODIFIED&bug_status=ON_DEV&bug_status=ON_QA&bug_status=VERIFIED&classification=Red%20Hat&f1=component&f10=target_release&f2=OP&f3=cf_devel_whiteboard&f4=cf_internal_whiteboard&f5=CP&j2=OR&list_id=7567955&o1=notsubstring&o10=notequals&o3=substring&o4=substring&product=Red%20Hat%20OpenStack&query_format=advanced&v1=doc&v10=---&v3=DFG%3AUpgrade&v4=DFG%3AUpgrade
+
+[non-zstream]
+documentation = Bz that do not have a target release (---)
+url = https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&bug_status=POST&bug_status=MODIFIED&bug_status=ON_DEV&bug_status=ON_QA&bug_status=VERIFIED&classification=Red%20Hat&f1=component&f10=target_release&f2=OP&f3=cf_devel_whiteboard&f4=cf_internal_whiteboard&f5=CP&j2=OR&list_id=7567972&o1=notsubstring&o10=equals&o3=substring&o4=substring&product=Red%20Hat%20OpenStack&query_format=advanced&v1=doc&v10=---&v3=DFG%3AUpgrade&v4=DFG%3AUpgrade
+
+[osp12-blockers]
+documentation = Blockers for OSP12
+url = https://bugzilla.redhat.com/buglist.cgi?action=wrap&bug_status=NEW&bug_status=ASSIGNED&bug_status=POST&bug_status=MODIFIED&bug_status=ON_DEV&bug_status=ON_QA&bug_status=VERIFIED&classification=Red%20Hat&f2=flagtypes.name&f3=target_release&f4=OP&f5=cf_internal_whiteboard&f6=cf_devel_whiteboard&f7=CP&j4=OR&list_id=7572651&o2=substring&o3=substring&o5=substring&o6=substring&order=changeddate%2Copendate%2Cassigned_to%2Cbug_id%20DESC&product=Red%20Hat%20OpenStack&query_based_on=&query_format=advanced&v2=blocker&v3=12.0&v5=DFG%3AUpgrades&v6=DFG%3AUpgrades
+
+[osp12-rfe]
+documentation = RFE for osp12 (Pike)
+url = https://bugzilla.redhat.com/buglist.cgi?action=wrap&classification=Red%20Hat&f1=cf_internal_whiteboard&f2=keywords&f3=target_release&o1=substring&o2=substring&o3=substring&product=Red%20Hat%20OpenStack&v1=DFG%3AUpgrades&v2=FutureFeature&v3=12.0&bug_status=NEW&bug_status=ASSIGNED&bug_status=POST&bug_status=MODIFIED&bug_status=ON_DEV&bug_status=ON_QA&bug_status=VERIFIED&list_id=7557350
+
+[osp12-master]
+documentation = To be included in the next release (not RFE)
+url = https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&bug_status=POST&bug_status=MODIFIED&bug_status=ON_DEV&bug_status=ON_QA&bug_status=VERIFIED&classification=Red%20Hat&f1=component&f10=target_release&f11=keywords&f2=OP&f3=cf_devel_whiteboard&f4=cf_internal_whiteboard&f5=CP&j2=OR&list_id=7557622&o1=notsubstring&o10=equals&o11=notsubstring&o3=substring&o4=substring&product=Red%20Hat%20OpenStack&query_format=advanced&v1=doc&v10=12.0%20%28Pike%29&v11=FutureFeature&v3=DFG%3AUpgrade&v4=DFG%3AUpgrade
+
+[osp11-zstream]
+documentation = Waiting for z-stream
+url = https://bugzilla.redhat.com/buglist.cgi?action=wrap&bug_status=NEW&bug_status=ASSIGNED&bug_status=POST&bug_status=MODIFIED&bug_status=ON_DEV&bug_status=ON_QA&bug_status=VERIFIED&classification=Red%20Hat&f1=component&f10=target_release&f2=OP&f3=cf_devel_whiteboard&f4=cf_internal_whiteboard&f5=CP&j2=OR&list_id=7549619&o1=notsubstring&o10=equals&o3=substring&o4=substring&product=Red%20Hat%20OpenStack&v1=doc&v10=11.0%20%28Ocata%29&v3=DFG%3AUpgrade&v4=DFG%3AUpgrade
+
+[osp10-zstream]
+documentation = Waiting for z-stream
+url = https://bugzilla.redhat.com/buglist.cgi?action=wrap&bug_status=NEW&bug_status=ASSIGNED&bug_status=POST&bug_status=MODIFIED&bug_status=ON_DEV&bug_status=ON_QA&bug_status=VERIFIED&classification=Red%20Hat&f1=component&f10=target_release&f2=OP&f3=cf_devel_whiteboard&f4=cf_internal_whiteboard&f5=CP&j2=OR&list_id=7549619&o1=notsubstring&o10=equals&o3=substring&o4=substring&product=Red%20Hat%20OpenStack&v1=doc&v10=10.0%20%28Newton%29&v3=DFG%3AUpgrade&v4=DFG%3AUpgrade
+
+[osp9-zstream]
+documentation = Waiting for z-stream
+url = https://bugzilla.redhat.com/buglist.cgi?action=wrap&bug_status=NEW&bug_status=ASSIGNED&bug_status=POST&bug_status=MODIFIED&bug_status=ON_DEV&bug_status=ON_QA&bug_status=VERIFIED&classification=Red%20Hat&f1=component&f2=OP&f20=target_release&f3=cf_devel_whiteboard&f4=cf_internal_whiteboard&f5=CP&j2=OR&list_id=7550073&o1=notsubstring&o20=equals&o3=substring&o4=substring&product=Red%20Hat%20OpenStack&v1=doc&v20=9.0%20%28Mitaka%29&v3=DFG%3AUpgrade&v4=DFG%3AUpgrade
+
+[osp8-zstream]
+documentation = Waiting for z-stream
+url = https://bugzilla.redhat.com/buglist.cgi?action=wrap&bug_status=NEW&bug_status=ASSIGNED&bug_status=POST&bug_status=MODIFIED&bug_status=ON_DEV&bug_status=ON_QA&bug_status=VERIFIED&classification=Red%20Hat&f1=component&f2=OP&f20=target_release&f3=cf_devel_whiteboard&f4=cf_internal_whiteboard&f5=CP&j2=OR&list_id=7550073&o1=notsubstring&o20=equals&o3=substring&o4=substring&product=Red%20Hat%20OpenStack&v1=doc&v20=8.0%20%28Liberty%29&v3=DFG%3AUpgrade&v4=DFG%3AUpgrade
+
+[testing]
+document = for testing
+url = https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&bug_status=POST&bug_status=MODIFIED&bug_status=ON_DEV&bug_status=ON_QA&bug_status=VERIFIED&classification=Red%20Hat&f1=bug_id&j_top=OR&list_id=7552757&o1=equals&product=Red%20Hat%20OpenStack&query_format=advanced&v1=1434621
+
+[exttesting]
+document = testing external id
+url = https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&bug_status=POST&bug_status=MODIFIED&bug_status=ON_DEV&bug_status=ON_QA&bug_status=VERIFIED&classification=Red%20Hat&f1=bug_id&j_top=OR&list_id=7552757&o1=equals&product=Red%20Hat%20OpenStack&query_format=advanced&v1=1444643
+
+[nss]
+url = https://bugzilla.redhat.com/buglist.cgi?action=wrap&bug_status=NEW&bug_status=ASSIGNED&bug_status=POST&bug_status=MODIFIED&bug_status=ON_DEV&bug_status=ON_QA&bug_status=VERIFIED&bug_status=RELEASE_PENDING&bug_status=CLOSED&f1=OP&f7=CP&j1=OR&f2=bug_id&o2=equals&v2=1451275&f3=bug_id&o3=equals&v3=1461531&f4=bug_id&o4=equals&v4=1472340&f5=bug_id&o5=equals&v5=1472343&f6=bug_id&o6=equals&v6=1472347
+documentation = 
+extra = 1451275,1461531,1472340,1472343,1472347
+

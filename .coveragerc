@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/rh_nexttask
+   */site-packages/rh_nexttask
+
+[run]
+branch = true
+source =
+    rh_nexttask
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
