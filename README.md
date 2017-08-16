@@ -61,6 +61,10 @@ Get all current blocker bug list which are under POST:
 
     rh-nexttask --restore /tmp/all-upgrade.data --show need_blocker_attention --show no-need_other_dfg_attention  --render echo_under_post
 
+Get all untriaged bug:
+
+    rh-nexttask --restore /tmp/all-upgrade.data --show need_triage --show no-need_other_dfg_attention
+
 And many (too much) more, look at the
 
     rh-nexttask --show list
