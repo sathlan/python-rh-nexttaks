@@ -65,6 +65,18 @@ Get all untriaged bug:
 
     rh-nexttask --restore /tmp/all-upgrade.data --show need_triage --show no-need_other_dfg_attention
 
+Get the list of upstream code that needs review associted with blocker bugs
+
+    rh-nexttask --restore /tmp/all-upgrade.data --show need_blocker_attention --show no-need_other_dfg_attention  --render tripleo_meeting
+
+Get the list of downstream review that need review:
+
+    rh-nexttask --restore /tmp/all-upgrade.data   --render daily_meeting
+
+Get the list of bz that have all code merged and must be moved to POST:
+
+    rh-nexttask --restore /tmp/all-upgrade.data --show need_post
+
 And many (too much) more, look at the
 
     rh-nexttask --show list
