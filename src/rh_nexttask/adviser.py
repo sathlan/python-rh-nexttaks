@@ -267,9 +267,12 @@ class Adviser(object):
     def need_info(self, bz):
         for flag in bz.flags:
             if 'needinfo' in flag['name']:
+                requestee = ''
+                if 'requestee' in flag:
+                    requestee = flag['requestee']
                 diff = Date(flag['modification_date']).diff_date
                 self._advice(bz, "{} need information from {} since {} days.".format(flag['setter'],
-                                                                                     flag['requestee'],
+                                                                                     requestee,
                                                                                      diff.days))
 
     def need_action(self, bz):
