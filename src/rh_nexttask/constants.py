@@ -29,7 +29,8 @@ class Constants:
         '10.0 (Newton)': 'stable/newton',
         '11.0 (Ocata)': 'stable/ocata',
         '12.0 (Pike)': 'stable/pike',
-        '13.0 (Queens)': 'master',
+        '13.0 (Queens)': 'stable/queens',
+        '14.0 (Rocky)': 'master',
         '---': 'master',
     }
     ZSTREAM_MAPPING = {
@@ -39,8 +40,9 @@ class Constants:
         '9.0 (Mitaka)': 'rhos-9.0.z',
         '10.0 (Newton)': 'rhos-10.0.z',
         '11.0 (Ocata)': 'rhos-11.0.z',
-        '12.0 (Pike)': 'stable/pike',
-        '13.0 (Queens)': 'master',
+        '12.0 (Pike)': 'rhos-12.0.z',
+        '13.0 (Queens)': 'stable/queens',
+        '14.0 (Rocky)': 'master',
         '---': 'master',
     }
 
